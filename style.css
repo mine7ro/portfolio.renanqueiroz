@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/BACK.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 800px;
+    background-color: #191919;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portfolio {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.portfolio span {
+    color: #87cefa;
+}
+
+li {
+    color: #ffffff;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #87cefa;
+    transition: 0.5s;
+}
+
+.meu-nome {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+h1 span {
+    color: #87cefa;
+}
+
+.meu-nome h3 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 15%;
+    background-color: black;  
+}
+
+section img{
+    height: 400px;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-right: 40px;
+}
+
+section div h2{
+    color: #ffffff;
+    font-size: 75px;
+}
+section div p{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+section div button{
+    color: white;
+    background: #87cefa;
+    height: 40px;
+    width: 165px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+}
+
+section div button:hover {
+    background-color: black;
+    border: 3px solid #87cefa;
+    transition: 0.5s;
+    cursor: pointer;
+}
